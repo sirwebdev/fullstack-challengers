@@ -108,10 +108,6 @@ interface UpdateTodoPresenter {
 }
 ```
 
-## Frontend
-
-Create a web app inspired into FIGMA prototype.
-
 ### DELETE - /todos/:id
 
 #### Rules
@@ -135,6 +131,10 @@ interface UpdateTodoPresenter {
   updated_at: Date;
 }
 ```
+
+## Frontend
+
+Create a web app inspired into FIGMA prototype.
 
 ### Requirements
 

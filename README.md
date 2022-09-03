@@ -18,9 +18,7 @@ Create a full aplication of a Todo App.
 
 We need to create an api who will have one endpoint.
 
-### /todos
-
-Need to have 4 METHODS
+### Requirements
 
 1. POST => Create a new TODO.
 2. GET => List all TODOS.
@@ -28,13 +26,83 @@ Need to have 4 METHODS
 4. PUT => Update TODO by ID.
 5. DELETE => Delete a todo by ID.
 
-#### TODO - Entity
+#### POST - /todos
+
+#### Rules
+
+1. Should not be able to create a todo without any data.
+2. Should be able to create a new TODO with is_completed false by default.
+3. Should return 201 status code.
 
 ```typescript
-interface TODO {
+interface CreateTodoDTO {
+  name: string;
+}
+```
+
+```typescript
+interface CreateTodoPresenter {
   id: string;
   name: string;
-  isCompleted: boolean;
+  is_completed: boolean;
+  created_at: Date;
+  updated_at: Date;
+}
+```
+
+### GET - /todos
+
+#### Rules
+
+1. Should list all storaged TODO's.
+
+```typescript
+interface ListTodoPresenter {
+  id: string;
+  name: string;
+  is_completed: boolean;
+  created_at: Date;
+  updated_at: Date;
+}
+[];
+```
+
+### GET - /todos/:id
+
+#### Rules
+
+1. Should get the selected todo by id.
+2. Should not be able to show a non-existent todo. (it has to return error message here and status code 400)
+
+```typescript
+interface ShowTodoPresenter {
+  id: string;
+  name: string;
+  is_completed: boolean;
+  created_at: Date;
+  updated_at: Date;
+}
+```
+
+### PUT - /todos/:id
+
+#### Rules
+
+1. Should update the selected todo by id.
+2. Should not be able to update a non-existent todo. (it has to return error message here and status code 400)
+
+```typescript
+interface UpdateTodoDTO {
+  name: string;
+  is_completed: boolean;
+}
+```
+
+```typescript
+interface UpdateTodoPresenter {
+  id: string;
+  name: string;
+  is_completed: boolean;
   created_at: Date;
   updated_at: Date;
 }
@@ -43,6 +111,30 @@ interface TODO {
 ## Frontend
 
 Create a web app inspired into FIGMA prototype.
+
+### DELETE - /todos/:id
+
+#### Rules
+
+1. Should delete the selected todo by id.
+2. Should not be able to delete non-existent todo. (it has to return error message here and status code 400)
+
+```typescript
+interface UpdateTodoDTO {
+  name: string;
+  is_completed: boolean;
+}
+```
+
+```typescript
+interface UpdateTodoPresenter {
+  id: string;
+  name: string;
+  is_completed: boolean;
+  created_at: Date;
+  updated_at: Date;
+}
+```
 
 ### Requirements
 

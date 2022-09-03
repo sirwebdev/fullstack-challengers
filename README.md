@@ -12,11 +12,11 @@ This is a challenger for you practice your skills about React and Node with Java
 
 ## About the challenger
 
-> Create a full aplication of a Todo App.
+Create a full aplication of a Todo App.
 
 ## Backend
 
-> We need to create an api who will have one endpoint.
+We need to create an api who will have one endpoint.
 
 ### /todos
 
@@ -39,3 +39,16 @@ interface TODO {
   updated_at: Date;
 }
 ```
+
+## Frontend
+
+Create a web app inspired into FIGMA prototype.
+
+### Requirements
+
+1. Need to create a new TODO.
+2. Need to update the TODO data.
+3. Need to delete a TODO.
+4. Need to list all storaged TODOS.
+5. Need to complete a TODO.
+6. Need to select a TODO.

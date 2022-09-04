@@ -134,7 +134,7 @@ interface UpdateTodoPresenter {
 
 ## Frontend
 
-Create a web app inspired into FIGMA prototype.
+Create a web app inspired into [FIGMA](https://www.figma.com/file/vcfPdSnkRn52hOTU6wkYA5/Todo-Challenger-App-01) prototype.
 
 ### Requirements
 

@@ -144,3 +144,11 @@ Create a web app inspired into [FIGMA](https://www.figma.com/file/vcfPdSnkRn52hO
 4. Need to list all storaged TODOS.
 5. Need to complete a TODO.
 6. Need to select a TODO.
+
+### Screenshots
+
+![image](https://user-images.githubusercontent.com/55673235/188297010-0834a190-adbe-414c-ac66-f61ffab0ad81.png)
+![image](https://user-images.githubusercontent.com/55673235/188297016-10e5b6c2-e8f0-4278-b8c1-0464d59d1721.png)
+![image](https://user-images.githubusercontent.com/55673235/188297024-ed042b49-48e3-44b9-a5a9-9635f8846e37.png)
+
+Good Luck, and Happy Hacking !!

@@ -1,4 +1,4 @@
-[go back](../)
+[go back](../README.md)
 
 # Welcome to the easy challengers
 

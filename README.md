@@ -12,4 +12,4 @@ Basicaly i'll storage all my ideas of fullstack challengers for you create it, a
 
 🚀 Enjoy it !!!
 
-Made with ❤️ by @[martins20](https://www.github.com/martins20)
+Made with ❤️ by [@martins20](https://www.github.com/martins20)

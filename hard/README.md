@@ -1,4 +1,4 @@
-[go back](..)
+[go back](../)
 
 # Welcome to the hard challengers
 

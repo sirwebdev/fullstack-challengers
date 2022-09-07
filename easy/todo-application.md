@@ -1,4 +1,4 @@
-[go back](..)
+[go back](../)
 
 # Todo Application - Easy
 
@@ -155,4 +155,4 @@ Create a web app inspired into [FIGMA](https://www.figma.com/file/vcfPdSnkRn52hO
 
 Good Luck, and Happy Hacking !!
 
-[go back](..)
+[go back](../)
